@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles/styles.css">  
+
+</head>
+
+<body>
+    
+    <div class="conteudo">               
+        <div class="lista__cards">
+            <button class="lista__cards__btn btn btn-esquerda">
+                <div class="icone">
+                    <svg>
+                        <use xlink:href="#flexa-esquerda"></use>
+                    </svg>
+                </div>
+            </button>
+
+            <div class="conteudo__cards">
+                <div class="card card--corrente">
+                    <div class="imagem--card">
+                        <img src="https://i.pinimg.com/originals/5c/12/0f/5c120fe034913d56a7fe216d427286bb.jpg" />
+                    </div>
+                </div>
+
+                <div class="card card--proximo">
+                    <div class="imagem--card">
+                        <img src="https://th.bing.com/th/id/R.b61c6fa342f116e0269b06f0a1ddc17b?rik=Jwb2gtViFgAnrw&riu=http%3a%2f%2fwww.world-art.ru%2fanimation%2fimg%2f11000%2f10534%2f1.jpg&ehk=%2fN%2bJtjXX4ObjDTB3eV9VzLrc2dLDc%2fjs4UnqrFmh9KQ%3d&risl=&pid=ImgRaw&r=0" />
+                    </div>
+                </div>
+
+                <div class="card card--anterior">
+                    <div class="imagem--card">
+                        <img src="https://th.bing.com/th/id/R.6703750752e8fcb7fddabe32bc518653?rik=e1nOciHq5HS1cg&pid=ImgRaw&r=0" />
+                    </div>
+                </div>
+            </div>
+
+            <button class="lista__cards__btn btn btn--direita">
+                <div class="icone">
+                    <svg>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+        
+        <div class="listagem__informacoes">
+            <div class="conteudo__informacoes">
+                <div class="info informacoes__corrente">
+              
+                </div>
+
+                <div class="info informacoes__seguinte">
+              
+                </div>
+
+                <div class="info informacoes__anterior">
+                 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="conteudo__background">
+            <div class="conteudo__backgorund__imagem imagem--corrente">
+                <img src="https://th.bing.com/th/id/R.e5d124790bc93f420fa4435228ed3b50?rik=nE53bfyF%2bcducw&pid=ImgRaw&r=0" alt="" />
+            </div>
+            <div class="conteudo__backgorund__imagem imagem--proxima">
+                <img src="https://th.bing.com/th/id/OIP.mwV79ciPF6VllpwOidLLVwHaEK?pid=ImgDet&rs=1" alt="" />
+            </div>
+            <div class="conteudo__backgorund__imagem imagem--anterior">
+                <img src="https://th.bing.com/th/id/OIP.b8AmK4xsk2RKx3Iss7V7DAHaEK?pid=ImgDet&rs=1" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudo__carregamento">
+        <div class="carregamento"></div>
+    </div>
+
+
+    <svg class="icones" style="display: none;">
+        <symbol id="flexa-esquerda" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
